@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 2px; /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Background color of the scrollbar track */
+  border-radius: 99999px; /* Fully rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000; /* Color of the scrollbar thumb */
+  border-radius: 99999px; /* Fully rounded corners for the scrollbar thumb */
+}
+
+*{
+  font-family:   "Retail Variable48";
+}
