@@ -2,14 +2,11 @@ import React, { useState } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Specialization from "./components/Specialization";
-import Menu from "./components/Menu";
 import LocomotiveScroll from 'locomotive-scroll';
 import Work from "./components/Work";
 import Services from "./components/Services";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Test from "./components/test";
-import Interview from "./components/Interview";
 
 
 const App = () => {
