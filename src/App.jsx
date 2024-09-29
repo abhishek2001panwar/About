@@ -8,6 +8,8 @@ import Work from "./components/Work";
 import Services from "./components/Services";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Test from "./components/test";
+import Interview from "./components/Interview";
 
 
 const App = () => {
@@ -24,7 +26,7 @@ const App = () => {
         style={{ fontFamily: "Retail Variable48" }}
         className="w-full h-screen "
       >
-        <Navbar handleclick={handleclick} setval={setval} />
+        <Navbar className="" handleclick={handleclick} setval={setval} />
         <Hero />
       </div>
       <Specialization />
@@ -32,6 +34,7 @@ const App = () => {
       <Services />
       <About />
       <Footer />
+      {/* <Interview/> */}
     </>
   );
 };
